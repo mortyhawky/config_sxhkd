@@ -1,6 +1,6 @@
 # Super + Enter → launch terminal
 super + Return
-    alacritty
+    alacritty -e tmux
 
 # Super + P → launch dmenu
 super + p
