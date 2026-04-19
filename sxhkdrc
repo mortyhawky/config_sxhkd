@@ -1,0 +1,8 @@
+# Super + A → launch Firefox
+super + w
+    firefox
+
+# Ctrl + Super + R → reload sxhkd
+ctrl + super + r
+    pkill -USR1 -x sxhkd &
+
