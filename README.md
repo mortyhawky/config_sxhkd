@@ -4,6 +4,7 @@ Simple X Hot Key Daemon
 
 #### Create Repo on the CLI
 ```bash
+c ~/.config/sxhkd
 git init
 echo "#### Sxhkd settings" >> README.md
 git add .
