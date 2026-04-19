@@ -5,7 +5,7 @@ Simple X Hot Key Daemon
 #### Create Repo on the CLI
 ```bash
 git init
-echo "#### Sxhkd settings"
+echo "#### Sxhkd settings" >> README.md
 git add .
 git commit -m "Inital commit"
 ```
