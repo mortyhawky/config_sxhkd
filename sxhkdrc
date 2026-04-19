@@ -1,8 +1,16 @@
-# Super + A → launch Firefox
+# Super + Enter → launch terminal
+super + Return
+    alacritty
+
+# Super + P → launch dmenu
+super + p
+    dmenu_run
+
+# Super + W → launch Firefox
 super + w
-    firefox
+    setsid firefox >/dev/null 2>&1
 
 # Ctrl + Super + R → reload sxhkd
 ctrl + super + r
-    pkill -USR1 -x sxhkd &
+    pkill -USR1 -x sxhkd
 
