@@ -1,16 +1,15 @@
 # Super + Enter → launch terminal
 super + Return
-    alacritty -e tmux
+  /usr/bin/kitty
 
 # Super + P → launch dmenu
 super + p
-    dmenu_run
+  dmenu_run
 
 # Super + W → launch BROWSER
 super + w
-    setsid $BROWSER >/dev/null 2>&1
+  setsid $BROWSER >/dev/null 2>&1
 
 # Ctrl + Super + R → reload sxhkd
 ctrl + super + r
-    pkill -USR1 -x sxhkd
-
+  pkill -USR1 -x sxhkd
